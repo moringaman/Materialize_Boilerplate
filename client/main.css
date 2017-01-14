@@ -1,0 +1,148 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+html, body {
+   font-family: 'Open Sans', sans-serif;
+  /* background-image: url("img/heavyBagBW.jpg");*/
+}
+
+.gamecanvas {
+  /*background-image: url("img/heavyBagBW.jpg");*/
+  background-size:600px 600px;
+  height:400px;
+  width: 100%;
+}
+
+
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+nav {
+
+  height: 60px;
+}
+
+.bigNo {
+  
+  font-size: 3em;
+  font-weight: bold;
+  color: #26a69a;
+  align-self: center;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+  width: 100%;
+  
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+ .row {
+    padding: 0px;
+ /*   margin: 0px -15px 0px -15px;*/
+  }
+
+ /* .collapsible-header {
+   margin-left: 10px;
+  }
+
+.collapsible-body {
+  background-color: #ffffff;
+  margin-left: 25px;
+}*/
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+   .row .col.m6 {
+    margin: 0px -15px 0px -90px;
+  }
+
+
+ .row {
+    padding: 0px;
+    margin: 0px -15px 0px 0px;
+  }
+
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+
+ .row {
+    padding: 0px;
+    width: 100%;
+    margin: 0px -15px 0px 0px;
+  }
+
+  .row .col.s12 {
+    margin: 0px -15px 0px 0px;
+  }
+
+.collapsible-header {
+   margin: 0px -10px  0px -10px;
+  }
+
+.collapsible-body {
+  background-color: #ffffff;
+  margin: 0px -10px  0px -10px;
+}
+
+
+
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.footer-menu {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  padding: 16px;
+  background-color: #26a69a;
+  color: #ffffff;
+  margin-top: 200px;
+  margin-bottom: -5px;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
